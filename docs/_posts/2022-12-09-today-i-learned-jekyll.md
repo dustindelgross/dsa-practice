@@ -5,20 +5,26 @@ date:   2022-12-09 18:38:51 -0500
 categories: jekyll update
 ---
 
+
+
 ## I Made This Site Using GitHub Pages and Jekyll
 ---
 
-I followed the [GitHub documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) on how to make a GitHub pages site using Jekyll, which is a Markdown processor (see below for what that means). I've always seen these documentation sites that somehow manage to capture all of their code, explanations, and stuff and I never understood how they did it, but now I kind of get it. This is going to just be a very basic, static site that lets you write simple markdown and have it be displayed in a neat and structured way.
+I followed the [GitHub documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) on how to make a GitHub pages site using Jekyll, which is a [Markdown processor](#whats-markdown). I've always seen these documentation sites that somehow manage to capture all of their code, explanations, and stuff and I never understood how they did it, but now I kind of get it. This is going to just be a very basic, static site that lets you write simple markdown and have it be displayed in a neat and structured way.
+
 
 #### Useful Links
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
-- [GitHub Documentation for Making a Site Like This](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
-- [Same-Page Link Test](#link-test)
+- [GitHub Documentation for Making a Site Just Like This](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
+
 
 ### What's "Markdown"?
 
-It's basically just a way of formatting text; headings, paragraphs, links, lists, images, stuff like that. Same kind of stuff you do with a Word document, but done with code.
+**Markdown** is basically just ***a way of formatting text***; headings, paragraphs, links, lists, images, stuff like that. Same kind of stuff you do with a Word document, but done with code.
+
+A **markdown processor** is ***something that takes the stuff you've written, and formats it a certain way***, based on a template file or theme. This site is currently using the "Minima" theme that comes out-of-the-box with the tutorial I followed.
+
 
 #### Why would I use markdown?
 
@@ -26,7 +32,7 @@ For making simple blog post sites, easily updatable documentation or tutorials, 
 
 # Link Test!
 
-#### Out-of-the-box Jekyll Documentation
+#### Here's Some Out-of-the-box Jekyll Documentation that came with the site:
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

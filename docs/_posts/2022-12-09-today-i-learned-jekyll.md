@@ -14,7 +14,7 @@ I followed the [GitHub documentation](https://docs.github.com/en/pages/setting-u
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [GitHub Documentation for Making a Site Like This](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
-- [Same-Page Link Test][link-test]
+- [Same-Page Link Test](#link-test)
 
 ### What's "Markdown"?
 
@@ -24,7 +24,7 @@ It's basically just a way of formatting text; headings, paragraphs, links, lists
 
 For making simple blog post sites, easily updatable documentation or tutorials, keeping structured notes, or just because you want to. Markdown is a really great way to write a structured set of notes, really quickly; as someone who tends to have a million and one notes-to-self scattered everywhere, I wanted a place to house some of the more helpful ones for people who might want to know some of the same things. I do the Googling, and hopefully, other people can Google things faster because of it.
 
-# [link-test]: Link Test!
+# Link Test!
 
 #### Out-of-the-box Jekyll Documentation
 

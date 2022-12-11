@@ -30,8 +30,6 @@ A **markdown processor** is ***something that takes the stuff you've written, an
 
 For making simple blog post sites, easily updatable documentation or tutorials, keeping structured notes, or just because you want to. Markdown is a really great way to write a structured set of notes, really quickly; as someone who tends to have a million and one notes-to-self scattered everywhere, I wanted a place to house some of the more helpful ones for people who might want to know some of the same things. I do the Googling, and hopefully, other people can Google things faster because of it.
 
-# Link Test!
-
 #### Here's Some Out-of-the-box Jekyll Documentation that came with the site:
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

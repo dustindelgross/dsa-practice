@@ -1,4 +1,8 @@
-# Data Structures and Algorithms
+---
+layout: post
+title:  "Data Structures and Algorithms"
+date:   2022-12-09 20:20:51 -0500
+categories: data-structures algorithms education
 ---
 
 ### What's an Algorithm?
@@ -9,86 +13,100 @@
 
 > If you're unaware that a solution exists, you might try to make one yourself. You have to know when an algorithm exiss and how to apply which one in several cases.
 
-#### Binary Search
----
-1. A sorted list is the input, an index is output.
-2. Target the halfway point of the list, and ask if that value is correct.
-3. If it's not, ask if it is greater than or less than the value, and keep the remainder of the options as the new searching pool.
-4. Target the halfway point of that pool, and repeat the steps above.
 
 # "Big O" Notation Visuals
 ---
 
 Big O is a theoretical definition of the complexity of an algorithm as a funciton of the size. O(n) is the Order of magnitude of complexity.
 
+- Logarithmic Time = O(log n)
+- Linear Time = O(n)
+- Constant Time = O(1)
+- Quadratic Time = O(x^n^)
+- Quasilinear Time = O(n log n)
+
+
 ### O(1): Constant Complexity
 
-		|
-		|
-Tries	|
-		|............
-		|____________
+```
+.      |
+.      |
+Tries  |
+.      |............
+.      |____________
 
-		n: # of Values in the Range
-		(Worst Case Scenario)
-
+	n: # of Values in the Range
+	(Worst Case Scenario)
+```
 ### O(n): Linear Complexity
 
-		|            .
-		|         .
-Tries	|      .
-		|   .
-		|._____________
+```
+.      |            .
+.      |         .
+Tries  |      .
+.      |   .
+.      |._____________
 
-		n: # of Values in the Range
-		(Worst Case Scenario)
+	n: # of Values in the Range
+	(Worst Case Scenario)
+```
 
 ### O(log n): Logarithmic Complexity
 
-		|
-		|
-Tries	|    ..........
-		| ....
-		|..____________
+```
+.      |
+.      |
+Tries  |    ..........
+.      | ....
+.      |..____________
 
-		n: # of Values in the Range
-		(Worst Case Scenario)
+	n: # of Values in the Range
+	(Worst Case Scenario)
+```
 
 ### O(x^n^): Quadratic Complexity
 
-		|   :
-		|   :
+```
+.       |   :
+.       |   :
 Tries	|  .:
-		| .:
-		|.____________
+.       | .:
+.       |.____________
 
-		n: # of Values in the Range
-		(Worst Case Scenario)
+	n: # of Values in the Range
+	(Worst Case Scenario)
+```
 
 ### O(n log n): Quasilinear Complexity
 
-		|        .
-		|       .
+```
+.       |        .
+.       |       .
 Tries	|     .
-		|   .
-		|._____________
+.       |   .
+.       |._____________
 
-		n: # of Values in the Range
-		(Worst Case Scenario)
+	n: # of Values in the Range
+	(Worst Case Scenario)
+```
 
 > Different algorithms grow at different rates.
+
+
+## Search Algorithms
+---
+
+#### Binary Search
+
+1. A sorted list is the input, an index is output.
+2. Target the halfway point of the list, and ask if that value is correct.
+3. If it's not, ask if it is greater than or less than the value, and keep the remainder of the options as the new searching pool.
+4. Target the halfway point of that pool, and repeat the steps above.
 
 Reading a variable takes the same amount of time, regardless of n, or "Constant Time". O(1) is constant time.
 
 A **logarithm** is ***the inverse of an exponent***. How many times do you need to divide a number by x to get a particular value? (log~x~ of n)
-
 A logarithmic algorithm is generally better than a linear algorithm
-
-Logarithmic Time = O(log n)
-Linear Time = O(n)
-Constant Time = O(1)
-Quadratic Time = O(x^n^)
-Quasilinear Time = O(n log n)
 
 **Quadratic Complexity** is generally ***when n is squared***, or multiplied by itself to achieve a specific effect or value.
 

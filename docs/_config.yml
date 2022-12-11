@@ -21,9 +21,9 @@
 title: DSA Practice
 email: dustin.delgross@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm using this repository sort of as a "Today I Learned..." book for development.
+  I'm mainly focusing on Data Structures and Algorithms right now, but I'm going to 
+  put other things that I learn here for my reference, and maybe for yours as well.
 domain: https://dustindelgross.github.io/dsa-practice/
 baseurl: /dsa-practice/ # the subpath of your site, e.g. /blog
 url: https://dustindelgross.github.io # the base hostname & protocol for your site, e.g. http://example.com

@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned: How to Make a Jekyll Theme
+title: "Today I Learned: How to Make a Jekyll Theme"
 tags: jekyll, education, til, tutorial, notes
 ---
 

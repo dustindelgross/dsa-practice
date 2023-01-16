@@ -153,3 +153,45 @@ All of the above are the different components of a data structure, and this is t
 An array is a data structure that has a collection of values that are referenced by an index. Each index is ordered sequentially, and each index stores data. The format of the data within the containers varies between languages, but the fundamental feature of reference by index persists.
 
 An array is a contiguous data structure: its data is stored in blocks, side-by-side with no gaps in memory. In non-contiguous data structures, data is stored in various locations in memory, and are referred to by pointers.
+
+When an array is declared, a base number of contiguous memory is allocated as the array's storage. Because arrays use indexes, the computer only needs to know where the first index is to reference the entire array.
+
+Space Allocation = n (size of the array) * m (space for item in array)
+The computer accesses the part of memory where the array element is by referencing the index number, multiplied by the amount of space allotted to all array elements. So it doesn't search for a specific address in memory, it extrapolates that address with the formula.
+
+### Each data structure solves a particular problem.
+Arrays work particularly well with accessing, but are pretty inefficient with inserts and deletes.
+A linked list may be a better tool than an array as far as insertions and deletions are concerned.
+
+A Linked List:
+
+- Linear data structure
+- Each element in the list is contained in a separate object called a node
+- Each node has two pieces of data:
+  1. The value of the current node
+  2. A reference to the next node in the list
+- The list has two parts:
+	1. The head
+	2. The tail
+
+The tail denotes the end of the list. Every other node points to the next node in the list.
+Linked lists are self-referential object.
+
+Singly-linked list only stores a reference to the next node.
+A doubly-linked list stores references to both the next node and the previous node.
+
+The standard search algorithm for a singly-linked list is typically O(n) time, but the insertion or deletions are typically O(1), because we only need to redefine the pointers for the node we want to insert/delete after.
+
+### Merge Sort
+
+Merge sort works by splitting up the problem into sub-problems. First, split array into two sub-arrays, split the sub-arrays into sub-arrays, and continue until there are only singular element arrays. Then, we start to merge the singular arrays together into pairs, sorting them as we go. Because we broke up the array before sorting, the sorting algorithm generally performs fewer sorting operations than if it sorted the entire array at once.
+
+Divide & Conquer - cutting apart a problem into smaller problems until each little problem is easy to solve.
+
+## !!!CORS!!! (Unrelated)
+
+Read the [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+
+It basically **allows a server** to ***indicate origins other than itself that the browser allows to load resources***. CORS also has a **pre-flight** request, which ***checks with the server that receives the request to verify that they permit cross-origin resource sharing***.
+
+XMLHttpRequest and the Fetch API both use a **same-origin** policy. The server which receives the request must permit CORS, ***and*** the client application must apply the appropriate headers to the request.
